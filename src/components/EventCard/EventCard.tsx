@@ -62,7 +62,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, onAddToCart, showRemoveFav
         })
     }
 
-    // barsierend auf dem Titel des Event, erzeugt Farbe
+    // barsierend auf dem Titel des Events, erzeugt Farbe
     const getAvatarColor = (title: string) => {
         const colors = [
             "#FF5722",

@@ -11,7 +11,7 @@ import Cart from "./pages/Cart/Cart"
 import Favorites from "./pages/Favorites/Favorites"
 import "./App.scss"
 
-// Wrapper component to access theme context
+// Wrapper Komponente
 const ThemedApp: React.FC = () => {
     const { isDarkMode } = useTheme()
 
