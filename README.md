@@ -86,7 +86,7 @@ Diese App wurde als Teil einer Coding Challenge für Teclead Ventures entwickelt
 # 🚀 Installation und Start
 
 1. Repository klonen:
-2. git clone https://github.com/username/[UUID-v4].git
+2. git clone git@github.com:FabriceMru/be6f6f91-7fcd-41e0-ac74-87c5d1d4834d.git
 3. cd [UUID-v4]
 
 Abhängigkeiten installieren:
