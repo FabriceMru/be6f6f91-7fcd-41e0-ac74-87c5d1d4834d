@@ -1,0 +1,14 @@
+.location-filter {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+
+  &__chip {
+    font-weight: 500;
+  }
+
+  &__date-range {
+    color: #666;
+  }
+}

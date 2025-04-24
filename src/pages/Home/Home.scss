@@ -1,0 +1,23 @@
+.home {
+  padding: 24px;
+  max-width: 100%;
+  position: sticky;
+  background-color: var(--background-color);
+
+  @media (max-width: 768px) {
+    padding: 16px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 12px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    text-align: center;
+
+    @media (max-width: 480px) {
+      font-size: 1.5rem;
+    }
+  }
+}

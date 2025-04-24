@@ -1,0 +1,43 @@
+:root {
+  font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --background-color: #f8f7f2; /* Beige background */
+  --text-color: #333;
+  --card-background: #fff;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --divider-color: rgba(0, 0, 0, 0.12);
+  --date-divider-bg: rgba(249, 249, 249, 0.8);
+  --date-color: #2196F3;
+
+  &.dark-theme {
+    --background-color: #121212;
+    --text-color: #f0f0f0;
+    --card-background: #1e1e1e;
+    --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    --divider-color: rgba(255, 255, 255, 0.12);
+    --date-divider-bg: rgba(30, 30, 30, 0.8);
+    --date-color: #64b5f6;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}

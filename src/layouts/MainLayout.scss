@@ -1,0 +1,14 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  &__content {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    background-color: var(--background-color);
+    transition: background-color 0.1s ease;
+  }
+}

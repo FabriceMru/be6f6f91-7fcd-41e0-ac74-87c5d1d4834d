@@ -1,0 +1,33 @@
+.filter-dialog {
+  &__section {
+    margin: 16px 0;
+  }
+
+  &__section-title {
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  &__divider {
+    margin: 16px 0;
+  }
+
+  &__form-control {
+    margin-top: 12px;
+  }
+
+  &__date-range {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+
+  &__date-input {
+    flex: 1;
+  }
+}
